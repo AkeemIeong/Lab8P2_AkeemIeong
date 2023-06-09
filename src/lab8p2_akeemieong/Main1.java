@@ -162,12 +162,12 @@ public class Main1 extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addGap(190, 190, 190)
+                        .addGap(227, 227, 227)
                         .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 245, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addGap(205, 205, 205)
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(255, Short.MAX_VALUE))
+                .addContainerGap(224, Short.MAX_VALUE))
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -374,6 +374,8 @@ public class Main1 extends javax.swing.JFrame {
         users.add(new Usuarios(name, cont));
         logname.setText("");
         logcontra.setText("");
+        ingre.run();
+        
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void crearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_crearActionPerformed
@@ -414,6 +416,7 @@ public class Main1 extends javax.swing.JFrame {
             }
         });
     }
+    ingresar ingre= new ingresar();
     ArrayList<Usuarios>users=new ArrayList<>();
     ArrayList<Artistas>arti=new ArrayList<>();
     // Variables declaration - do not modify//GEN-BEGIN:variables
