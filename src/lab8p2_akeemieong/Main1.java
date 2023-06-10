@@ -1003,7 +1003,7 @@ public class Main1 extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton9ActionPerformed
 
     private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_jButton12ActionPerformed
 
     private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
