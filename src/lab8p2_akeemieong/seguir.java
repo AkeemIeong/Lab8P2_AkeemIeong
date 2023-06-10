@@ -4,10 +4,28 @@
  */
 package lab8p2_akeemieong;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author SURFACEB2I7
  */
-public class seguir {
-    
+public class seguir extends Thread{
+    public void run() {
+        
+        for (int i = 0; i < 4; i++) {
+            Date h=new Date();
+            DateFormat f=new SimpleDateFormat("hh:mm:ss");
+                System.out.println(f.format(h));
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException ex) {
+
+            }
+        }
+        JOptionPane.showMessageDialog(null, "Se sigue al artista correctamente");
+    }
 }
